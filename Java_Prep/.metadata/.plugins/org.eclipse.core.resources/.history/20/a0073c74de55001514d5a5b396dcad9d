@@ -1,0 +1,20 @@
+
+public class TestPrivateContructor {
+
+	public static void main(String[] args) {
+
+		
+	}
+
+}
+
+class SingleTon{
+
+	private static SingleTon singleTonInstance = null;
+	
+	private SingleTon() {
+	}
+	
+	
+	
+}

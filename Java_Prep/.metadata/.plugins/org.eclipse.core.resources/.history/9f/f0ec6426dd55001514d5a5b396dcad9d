@@ -1,0 +1,16 @@
+
+public class TestPrivateContructor {
+
+	public static void main(String[] args) {
+
+		
+		
+	}
+
+}
+
+class SingleTon{
+
+	private SingleTon singleTon = null;
+	
+}

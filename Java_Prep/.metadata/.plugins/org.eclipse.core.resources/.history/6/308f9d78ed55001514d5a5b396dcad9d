@@ -1,0 +1,10 @@
+package com.designpattern.creational.builder;
+
+public class MealBuilder {
+	
+	Meal meal = new Meal();
+	public void prepareVegMeal(){
+		
+	}
+
+}

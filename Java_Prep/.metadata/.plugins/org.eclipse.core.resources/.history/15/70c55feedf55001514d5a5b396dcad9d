@@ -1,0 +1,29 @@
+public class TestPrivateContructor {
+
+	public static void main(String[] args) {
+
+		SingleTon instance = SingleTon.getInstance();
+		
+	}
+
+}
+
+class SingleTon{
+
+	private static SingleTon singleTonInstance = null;
+	
+	private SingleTon() {
+	}
+	
+	public static SingleTon getInstance(){
+		if(singleTonInstance == null){
+			synchronized (singleTonInstance) {
+				if(singleTonInstance == null){
+					singleTonInstance = new SingleTon();
+				}
+			}
+		}
+		return singleTonInstance;
+	}
+	
+}

@@ -1,0 +1,16 @@
+package com.designpattern.creational.builder;
+
+public class MealBuilder {
+	
+	Meal meal = new Meal();
+	public void prepareVegMeal(){
+		meal.addItem(new VegBurger());
+		meal.addItem(new Coke());
+	}
+	
+	public void prepareNonVegMeal(){
+		meal.addItem(new ChickenBurger());
+		meal.addItem(new Coke());
+	}
+
+}

@@ -1,0 +1,17 @@
+package com.designpattern.creational.builder;
+
+public class Coke extends ColdDrinks {
+
+	@Override
+	public String name() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Float price() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

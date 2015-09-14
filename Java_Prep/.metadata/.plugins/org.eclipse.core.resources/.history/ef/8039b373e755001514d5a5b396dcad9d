@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.designpattern.creational.builder;
+
+/**
+ * @author Nikhil
+ *
+ */
+public interface Item {
+
+}

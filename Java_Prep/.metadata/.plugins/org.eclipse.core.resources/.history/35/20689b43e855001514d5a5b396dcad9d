@@ -1,0 +1,39 @@
+/**
+ * 
+ */
+package com.designpattern.creational.builder;
+
+/**
+ * @author Nikhil
+ *
+ */
+public abstract class Burger implements Item {
+
+	/* (non-Javadoc)
+	 * @see com.designpattern.creational.builder.Item#name()
+	 */
+	@Override
+	public String name() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see com.designpattern.creational.builder.Item#packing()
+	 */
+	@Override
+	public Packing packing() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see com.designpattern.creational.builder.Item#price()
+	 */
+	@Override
+	public Float price() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

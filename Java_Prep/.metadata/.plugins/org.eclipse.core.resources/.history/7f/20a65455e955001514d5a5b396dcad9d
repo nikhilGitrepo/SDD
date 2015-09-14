@@ -1,0 +1,15 @@
+package com.designpattern.creational.builder;
+
+public class ChickenBurger extends Burger {
+
+	@Override
+	public String name() {
+		return null;
+	}
+
+	@Override
+	public Float price() {
+		return null;
+	}
+
+}

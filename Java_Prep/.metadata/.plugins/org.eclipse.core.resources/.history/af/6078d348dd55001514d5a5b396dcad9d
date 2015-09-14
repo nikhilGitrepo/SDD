@@ -1,0 +1,20 @@
+
+public class TestPrivateContructor {
+
+	public static void main(String[] args) {
+
+	SingleTon singleTon = new SingleTon();	
+		
+	}
+
+}
+
+class SingleTon{
+
+	private static SingleTon singleTon = null;
+	
+	 SingleTon() {
+		// TODO Auto-generated constructor stub
+	}
+	
+}

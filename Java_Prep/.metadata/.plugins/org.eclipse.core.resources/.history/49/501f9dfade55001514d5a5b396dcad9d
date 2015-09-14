@@ -1,0 +1,30 @@
+import com.sun.javafx.geom.transform.SingularMatrixException;
+
+public class TestPrivateContructor {
+
+	public static void main(String[] args) {
+
+		
+	}
+
+}
+
+class SingleTon{
+
+	private static SingleTon singleTonInstance = null;
+	
+	private SingleTon() {
+	}
+	
+	public SingleTon getInstance(){
+		if(singleTonInstance == null){
+			synchronized (singleTonInstance) {
+				if(singleTonInstance == null){
+					singleTonInstance = new SingleTon();
+				}
+			}
+		}
+		return singleTonInstance;
+	}
+	
+}

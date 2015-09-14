@@ -1,0 +1,14 @@
+
+public class TestPrivateContructor {
+
+	public static void main(String[] args) {
+
+		
+		
+	}
+
+}
+
+private static class SingleTon{
+	
+}
